@@ -1,0 +1,4 @@
+# group_vars/all.yml
+---
+ollama_install_script_url: "https://ollama.com/install.sh"
+model_name: "qwen2:0.5b"

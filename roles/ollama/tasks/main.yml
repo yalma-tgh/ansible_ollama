@@ -1,0 +1,11 @@
+# roles/ollama/tasks/main.yml
+---
+- name: Install Ollama using install script
+  shell: |
+    curl -fsSL {{ ollama_install_script_url }} | sh
+  become: true
+
+- name: Pull the model using ollama
+  shell: |
+    ollama pull {{ model_name }}
+  become: true

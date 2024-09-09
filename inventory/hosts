@@ -1,0 +1,3 @@
+[gcp]
+server_main ansible_host=ollama ansible_user=yalma
+

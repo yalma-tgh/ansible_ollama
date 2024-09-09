@@ -1,0 +1,5 @@
+---
+- name: Install and Run model on Ollama Server
+  hosts: gcp
+  roles:
+    - ollama
